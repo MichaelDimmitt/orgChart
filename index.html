@@ -8,6 +8,14 @@
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="styles.css">
+      <script>
+         window.onload = function(){
+         var hideMe = document.getElementById('hideMe');
+         document.onclick = function(e){
+             window.location.href = "#";
+         };
+      };
+      </script>
 </head>
 <body>
 <div class="content">
@@ -17,58 +25,58 @@
             <li>
                 <ul class="director">
                     <li>
-                        <a href="#"><span>Director</span></a>
+                        <a id="director" href="#director"><span>Director</span></a>
                         <ul class="subdirector">
-                            <li><a href="#"><span>Assistante Director</span></a></li>
+                            <li><a id="assistant-director" href="#assistant-director"><span>Assistant Director</span></a></li>
                         </ul>
                         <ul class="departments cf">
-                            <li><a href="#"><span>Administration</span></a></li>
+                            <li><a id="administration" href="#administration"><span>Administration</span></a></li>
 
                             <li class="department dep-a">
-                                <a href="#"><span>Department A</span></a>
+                                <a id="department-a" href="#department-a"><span>Department A</span></a>
                                 <ul class="sections">
-                                    <li class="section"><a href="#"><span>Section A1</span></a></li>
-                                    <li class="section"><a href="#"><span>Section A2</span></a></li>
-                                    <li class="section"><a href="#"><span>Section A3</span></a></li>
-                                    <li class="section"><a href="#"><span>Section A4</span></a></li>
-                                    <li class="section"><a href="#"><span>Section A5</span></a></li>
+                                    <li id="a1" class="section"><a href="#a1"><span>Section A1</span></a></li>
+                                    <li id="a2" class="section"><a href="#a2"><span>Section A2</span></a></li>
+                                    <li id="a3" class="section"><a href="#a3"><span>Section A3</span></a></li>
+                                    <li id="a4" class="section"><a href="#a4"><span>Section A4</span></a></li>
+                                    <li id="a5" class="section"><a href="#a5"><span>Section A5</span></a></li>
                                 </ul>
                             </li>
                             <li class="department dep-b">
-                                <a href="#"><span>Department B</span></a>
+                                <a id="department-b" href="#department-b"><span>Department B</span></a>
                                 <ul class="sections">
-                                    <li class="section"><a href="#"><span>Section B1</span></a></li>
-                                    <li class="section"><a href="#"><span>Section B2</span></a></li>
-                                    <li class="section"><a href="#"><span>Section B3</span></a></li>
-                                    <li class="section"><a href="#"><span>Section B4</span></a></li>
+                                    <li id="b1" class="section"><a href="#b1"><span>Section B1</span></a></li>
+                                    <li id="b2" class="section"><a href="#b2"><span>Section B2</span></a></li>
+                                    <li id="b3" class="section"><a href="#b3"><span>Section B3</span></a></li>
+                                    <li id="b4" class="section"><a href="#b4"><span>Section B4</span></a></li>
                                 </ul>
                             </li>
                             <li class="department dep-c">
-                                <a href="#"><span>Department C</span></a>
+                                <a id="department-c" href="#department-c"><span>Department C</span></a>
                                 <ul class="sections">
-                                    <li class="section"><a href="#"><span>Section C1</span></a></li>
-                                    <li class="section"><a href="#"><span>Section C2</span></a></li>
-                                    <li class="section"><a href="#"><span>Section C3</span></a></li>
-                                    <li class="section"><a href="#"><span>Section C4</span></a></li>
+                                    <li id="c1" class="section"><a href="#c1"><span>Section C1</span></a></li>
+                                    <li id="c2" class="section"><a href="#c2"><span>Section C2</span></a></li>
+                                    <li id="c3" class="section"><a href="#c3"><span>Section C3</span></a></li>
+                                    <li id="c4" class="section"><a href="#c4"><span>Section C4</span></a></li>
                                 </ul>
                             </li>
                             <li class="department dep-d">
-                                <a href="#"><span>Department D</span></a>
+                                <a id="department-d" href="#department-d"><span>Department D</span></a>
                                 <ul class="sections">
-                                    <li class="section"><a href="#"><span>Section D1</span></a></li>
-                                    <li class="section"><a href="#"><span>Section D2</span></a></li>
-                                    <li class="section"><a href="#"><span>Section D3</span></a></li>
-                                    <li class="section"><a href="#"><span>Section D4</span></a></li>
-                                    <li class="section"><a href="#"><span>Section D5</span></a></li>
-                                    <li class="section"><a href="#"><span>Section D6</span></a></li>
+                                    <li id="d1" class="section"><a href="#d1"><span>Section D1</span></a></li>
+                                    <li id="d2" class="section"><a href="#d2"><span>Section D2</span></a></li>
+                                    <li id="d3" class="section"><a href="#d3"><span>Section D3</span></a></li>
+                                    <li id="d4" class="section"><a href="#d4"><span>Section D4</span></a></li>
+                                    <li id="d5" class="section"><a href="#d5"><span>Section D5</span></a></li>
+                                    <li id="d6" class="section"><a href="#d6"><span>Section D6</span></a></li>
                                 </ul>
                             </li>
                             <li class="department dep-e">
-                                <a href="#"><span>Department E</span></a>
+                                <a id="department-e" href="#department-e"><span>Department E</span></a>
                                 <ul class="sections">
-                                    <li class="section"><a href="#"><span>Section E1</span></a></li>
-                                    <li class="section"><a href="#"><span>Section E2</span></a></li>
-                                    <li class="section"><a href="#"><span>Section E3</span></a></li>
+                                    <li id="e1" class="section"><a href="#e1"><span>Section E1</span></a></li>
+                                    <li id="e2" class="section"><a href="#e2"><span>Section E2</span></a></li>
+                                    <li id="e3" class="section"><a href="#e3"><span>Section E3</span></a></li>
                                 </ul>
                             </li>
                         </ul>
